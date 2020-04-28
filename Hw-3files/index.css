@@ -1,0 +1,30 @@
+ body {
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 150%;
+    background-color: dodgerblue;
+    width: 1000px;
+}
+h1 {
+    color: black;
+    margin: 0;
+    padding: 0 0 0.5em 0;
+    text-align: center;
+}
+#meals {
+    float: right;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    height: 400px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 15px;
+    text-align: left;
+  }
